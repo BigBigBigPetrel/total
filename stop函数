@@ -28,7 +28,7 @@
 		})
 		
 		$('#stop').on('click',function(){
-			$('#div1').stop();
+			$('#div1').stop();//默认false
 		})
 	})
 </script>
