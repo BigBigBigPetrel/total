@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>	</title>
+	<style>
+	#div1{
+		background: #f00;
+		width: 200px;
+		height: 200px;
+	}	
+	</style>
+</head>
+<body>
+<button id="stop">stop</button>
+<button id="animate">animate</button>
+<div id="div1">	</div>
+<script src="jquery-1.12.3.js"></script>
+
+<script>
+	$(function(){
+		$("#animate").on('click',function(){
+			$('#div1').animate({
+			width:400
+		},3000).animate({
+			height:400
+		},3000)
+		})
+		
+		$('#stop').on('click',function(){
+			$('#div1').stop();
+		})
+	})
+</script>
+</body>
+</html>
