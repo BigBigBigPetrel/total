@@ -16,7 +16,7 @@
 <button id="animate">animate</button>
 <div id="div1">	</div>
 <script src="jquery-1.12.3.js"></script>
-
+//xixixixixixixii
 <script>
 	$(function(){
 		$("#animate").on('click',function(){
